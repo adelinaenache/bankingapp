@@ -2,8 +2,10 @@ import models.card.Card;
 import models.client.BusinessClient;
 import models.client.IndividualClient;
 import services.AtmService;
+import services.BankingService;
 import services.TransactionService;
-
+// TODO: Clarifica todo-urile la laborator. :)
+// TODO: use the sort method and implement some sorting criteria
 public class Main {
     public static void main(String [] args) {
         BankingService service = new BankingService();
@@ -17,7 +19,6 @@ public class Main {
 
         // create a individual account
         IndividualClient client2 = (IndividualClient) service.registerNewClientAndSetupAccount("Adelina", "Enache", "299060399012102", "Romania", "Bucharest", "Calea Giulesti 43", "enache.adelina99@gmail.com", "+40770416856");
-
 
         System.out.println(client1);
         System.out.println(client2);

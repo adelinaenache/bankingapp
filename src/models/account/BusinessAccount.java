@@ -13,6 +13,13 @@ public class BusinessAccount extends Account {
         System.out.println("CREATED BUSINESS ACCOUNT");
     }
 
+    public BusinessAccount(String IBAN, String balance) {
+        super(IBAN, balance);
+
+        this.withdrawFee = 20;
+        this.depositFeePercent = 1;
+    }
+
     public double getWithdrawFee(int amount) {
         return withdrawFee;
     }

@@ -18,6 +18,14 @@ public class IndividualClient extends Client {
         this.cnp = cnp;
     }
 
+    public IndividualClient(String firstName, String lastName, String cnp, String address, String country, String city,
+                            String email, String phoneNumber, String registrationDate) {
+        super(country, city, address, email, phoneNumber, registrationDate);
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.cnp = cnp;
+    }
+
     public String getFirstName() {
         return this.firstName;
     }

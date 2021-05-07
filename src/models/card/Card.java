@@ -1,5 +1,6 @@
 package models.card;
 
+import services.AuditService;
 import utils.RandomGenerator;
 
 import java.time.LocalDate;
@@ -40,6 +41,8 @@ public class Card {
 
     public void deactivate() {
         this.isActive = false;
+        AuditService audit = AuditService.getInstance();
+        audit.logAction("Action 9: Deactivate card");
     }
 
     @Override

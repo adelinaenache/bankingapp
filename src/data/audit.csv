@@ -1,0 +1,15 @@
+Action 1.2: Create business client account,1620461527448
+Action 3: Add card,1620461527481
+Action 2: Create account,1620461527482
+Action 1.1: Create individual client account,1620461527482
+Action 3: Add card,1620461527482
+Action 2: Create account,1620461527483
+Action 4: Create ATM,1620461527524
+Action 4: Create ATM,1620461527524
+Action 5: Deposit in ATM,1620461527525
+Action 6: Deposit funds in account,1620461527536
+Action 6: Withdraw money,1620461527536
+Action 8: Make transaction,1620461527538
+Action 10: List all transactions,1620461527539
+Action 3: Add card,1620461527552
+Action 9: Deactivate card,1620461527553

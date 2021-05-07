@@ -7,7 +7,14 @@ public class BusinessClient extends Client {
     private final String businessName, CUI;
 
     public BusinessClient(String businessName, String CUI, String country, String city, String address, String email,
-            String phoneNumber) {
+            String phoneNumber, String registrationDate) {
+        super(country, city, address, email, phoneNumber, registrationDate);
+        this.businessName = businessName;
+        this.CUI = CUI;
+    }
+
+    public BusinessClient(String businessName, String CUI, String country, String city, String address, String email,
+                          String phoneNumber) {
         super(country, city, address, email, phoneNumber);
         this.businessName = businessName;
         this.CUI = CUI;

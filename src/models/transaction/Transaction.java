@@ -41,6 +41,15 @@ public class Transaction implements Comparable<Transaction> {
         this.receiverIdentification = receiver.getIdentification();
     }
 
+    // used to load transactions from csv
+    public Transaction(String giver, String receiver, String amount, String fee, String date) {
+        this.date = LocalDate.parse(date);
+        this.fee = Double.parseDouble(fee);
+        this.amount = Double.parseDouble(amount);
+        this.giverIdentification = giver;
+        this.receiverIdentification = receiver;
+    }
+
 
     @Override
     public int compareTo(Transaction o2) {

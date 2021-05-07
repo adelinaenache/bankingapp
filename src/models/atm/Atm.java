@@ -29,7 +29,7 @@ public class Atm {
         return openCode;
     }
 
-
+    // TODO: Move the business related metods to a dedicated service
     public boolean hasFunds(int amount) {
        return  amount <= this.getFunds();
     }

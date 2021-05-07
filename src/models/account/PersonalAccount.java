@@ -9,7 +9,13 @@ public class PersonalAccount extends Account {
 
         this.withdrawFeePercent = 5;
         this.depositFee = 1;
+    }
 
+    public PersonalAccount(String IBAN, String balance) {
+        super(IBAN, balance);
+
+        this.withdrawFeePercent = 5;
+        this.depositFee = 1;
     }
 
     public double getWithdrawFee(int amount) {

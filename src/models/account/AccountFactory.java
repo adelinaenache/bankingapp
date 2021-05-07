@@ -13,4 +13,17 @@ public class AccountFactory {
                 return null;
         }
     }
+
+    public static Account loadAccount(String type, String IBAN, String balance) {
+        switch (type) {
+            case "savings":
+                return new SavingsAccount(IBAN, balance);
+            case "business":
+                return new BusinessAccount(IBAN, balance);
+            case "individual":
+                return new PersonalAccount(IBAN, balance);
+            default:
+                return null;
+        }
+    }
 }

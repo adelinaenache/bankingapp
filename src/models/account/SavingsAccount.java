@@ -5,6 +5,10 @@ public class SavingsAccount extends Account {
         super();
     }
 
+    public SavingsAccount(String IBAN, String balance) {
+        super(IBAN, balance);
+    }
+
 
     public double getWithdrawFee(int amount) {
         return 0;

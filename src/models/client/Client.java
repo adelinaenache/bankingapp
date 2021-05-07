@@ -19,6 +19,16 @@ public abstract class Client {
         this.registrationDate = LocalDate.now();
     }
 
+    Client(String country, String city, String address, String email, String phoneNumber, String registrationDate) {
+        this.country = country;
+        this.city = city;
+        this.address = address;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.registrationDate = LocalDate.parse(registrationDate);
+    }
+
+
     public abstract Account createAccount();
 
     // used for showcase purposes

@@ -2,6 +2,7 @@ package models.account;
 
 import models.card.Card;
 import models.transaction.Transaction;
+import services.AuditService;
 import utils.RandomGenerator;
 
 import java.util.*;
@@ -31,6 +32,12 @@ public abstract class Account {
         this.IBAN = RandomGenerator.generateRandomString(16);
     }
 
+    public Account(String IBAN, String balance) {
+        this.IBAN = IBAN;
+        this.balance = Double.parseDouble(balance);
+    }
+
+    // TODO: Move these methods to a dedicated service
     // used for showcase purposes. Normally, you shouldn't have access to cards.
     public Card getFirstCard() {
         return cards.get(0);
@@ -64,6 +71,8 @@ public abstract class Account {
     }
 
     public void createCard() {
+        AuditService audit = AuditService.getInstance();
+        audit.logAction("Action 3: Add card");
         cards.add(new Card());
     }
 
