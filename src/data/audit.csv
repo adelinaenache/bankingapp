@@ -13,3 +13,460 @@ Action 8: Make transaction,1620461527538
 Action 10: List all transactions,1620461527539
 Action 3: Add card,1620461527552
 Action 9: Deactivate card,1620461527553
+Action 1.2: Create business client account,1621976339307
+Action 3: Add card,1621976339341
+Action 2: Create account,1621976339342
+Action 1.1: Create individual client account,1621976339342
+Action 3: Add card,1621976339342
+Action 2: Create account,1621976339342
+Action 4: Create ATM,1621976339414
+Action 4: Create ATM,1621976339414
+Action 5: Deposit in ATM,1621976339414
+Action 6: Deposit funds in account,1621976339429
+Action 7: Withdraw money,1621976339430
+Action 8: Make transaction,1621976339433
+Action 10: List all transactions,1621976339433
+Action 3: Add card,1621976339453
+Action 9: Deactivate card,1621976339453
+Action 1.2: Create business client account,1622024461632
+Action 3: Add card,1622024461645
+Action 2: Create account,1622024461646
+Action 1.1: Create individual client account,1622024461646
+Action 3: Add card,1622024461646
+Action 2: Create account,1622024461647
+Action 4: Create ATM,1622024461692
+Action 4: Create ATM,1622024461698
+Action 5: Deposit in ATM,1622024461701
+Action 6: Deposit funds in account,1622024461711
+Action 7: Withdraw money,1622024461712
+Action 8: Make transaction,1622024461714
+Action 10: List all transactions,1622024461714
+Action 3: Add card,1622024461725
+Action 9: Deactivate card,1622024461726
+Action 1.2: Create business client account,1622024495598
+Action 3: Add card,1622024495612
+Action 2: Create account,1622024495613
+Action 1.1: Create individual client account,1622024495613
+Action 3: Add card,1622024495613
+Action 2: Create account,1622024495614
+Action 4: Create ATM,1622024495663
+Action 4: Create ATM,1622024495668
+Action 5: Deposit in ATM,1622024495671
+Action 6: Deposit funds in account,1622024495681
+Action 7: Withdraw money,1622024495681
+Action 8: Make transaction,1622024495683
+Action 10: List all transactions,1622024495684
+Action 3: Add card,1622024495697
+Action 9: Deactivate card,1622024495697
+Action 1.2: Create business client account,1622024598247
+Action 3: Add card,1622024598259
+Action 2: Create account,1622024598260
+Action 1.1: Create individual client account,1622024598260
+Action 3: Add card,1622024598260
+Action 2: Create account,1622024598261
+Action 4: Create ATM,1622024598305
+Action 4: Create ATM,1622024598312
+Action 5: Deposit in ATM,1622024598315
+Action 6: Deposit funds in account,1622024598326
+Action 7: Withdraw money,1622024598326
+Action 8: Make transaction,1622024598329
+Action 10: List all transactions,1622024598329
+Action 3: Add card,1622024598344
+Action 9: Deactivate card,1622024598344
+Action 1.2: Create business client account,1622024624015
+Action 3: Add card,1622024624026
+Action 2: Create account,1622024624026
+Action 1.1: Create individual client account,1622024624027
+Action 3: Add card,1622024624027
+Action 2: Create account,1622024624027
+Action 4: Create ATM,1622024624069
+Action 4: Create ATM,1622024624075
+Action 5: Deposit in ATM,1622024624078
+Action 6: Deposit funds in account,1622024624088
+Action 7: Withdraw money,1622024624088
+Action 8: Make transaction,1622024624090
+Action 10: List all transactions,1622024624091
+Action 3: Add card,1622024624102
+Action 9: Deactivate card,1622024624103
+Action 1.2: Create business client account,1622024696031
+Action 3: Add card,1622024696043
+Action 2: Create account,1622024696044
+Action 1.1: Create individual client account,1622024696044
+Action 3: Add card,1622024696045
+Action 2: Create account,1622024696045
+Action 4: Create ATM,1622024696090
+Action 4: Create ATM,1622024696095
+Action 5: Deposit in ATM,1622024696099
+Action 6: Deposit funds in account,1622024696111
+Action 7: Withdraw money,1622024696111
+Action 8: Make transaction,1622024696114
+Action 10: List all transactions,1622024696114
+Action 3: Add card,1622024696124
+Action 9: Deactivate card,1622024696125
+Action 1.2: Create business client account,1622024714435
+Action 3: Add card,1622024714444
+Action 2: Create account,1622024714445
+Action 1.1: Create individual client account,1622024714445
+Action 3: Add card,1622024714445
+Action 2: Create account,1622024714446
+Action 4: Create ATM,1622024714486
+Action 4: Create ATM,1622024714491
+Action 5: Deposit in ATM,1622024714494
+Action 6: Deposit funds in account,1622024714504
+Action 7: Withdraw money,1622024714504
+Action 8: Make transaction,1622024714506
+Action 10: List all transactions,1622024714507
+Action 3: Add card,1622024714518
+Action 9: Deactivate card,1622024714519
+Action 1.2: Create business client account,1622024744534
+Action 3: Add card,1622024744546
+Action 2: Create account,1622024744547
+Action 1.1: Create individual client account,1622024744547
+Action 3: Add card,1622024744548
+Action 2: Create account,1622024744548
+Action 4: Create ATM,1622024744591
+Action 4: Create ATM,1622024744596
+Action 5: Deposit in ATM,1622024744599
+Action 6: Deposit funds in account,1622024744609
+Action 7: Withdraw money,1622024744609
+Action 8: Make transaction,1622024744611
+Action 10: List all transactions,1622024744612
+Action 3: Add card,1622024744630
+Action 9: Deactivate card,1622024744630
+Action 1.2: Create business client account,1622024802052
+Action 3: Add card,1622024802066
+Action 2: Create account,1622024802067
+Action 1.1: Create individual client account,1622024802067
+Action 3: Add card,1622024802067
+Action 2: Create account,1622024802068
+Action 4: Create ATM,1622024802110
+Action 4: Create ATM,1622024802123
+Action 5: Deposit in ATM,1622024802126
+Action 6: Deposit funds in account,1622024802135
+Action 7: Withdraw money,1622024802136
+Action 8: Make transaction,1622024802137
+Action 10: List all transactions,1622024802138
+Action 3: Add card,1622024802147
+Action 9: Deactivate card,1622024802147
+Action 1.2: Create business client account,1622024819016
+Action 3: Add card,1622024819030
+Action 2: Create account,1622024819031
+Action 1.1: Create individual client account,1622024819031
+Action 3: Add card,1622024819032
+Action 2: Create account,1622024819032
+Action 4: Create ATM,1622024819071
+Action 4: Create ATM,1622024819088
+Action 5: Deposit in ATM,1622024819091
+Action 6: Deposit funds in account,1622024819098
+Action 7: Withdraw money,1622024819098
+Action 8: Make transaction,1622024819100
+Action 10: List all transactions,1622024819101
+Action 3: Add card,1622024819110
+Action 9: Deactivate card,1622024819110
+Action 1.2: Create business client account,1622025176871
+Action 3: Add card,1622025176882
+Action 2: Create account,1622025176883
+Action 1.1: Create individual client account,1622025176883
+Action 3: Add card,1622025176883
+Action 2: Create account,1622025176884
+Action 4: Create ATM,1622025176927
+Action 4: Create ATM,1622025176933
+Action 5: Deposit in ATM,1622025176936
+Action 6: Deposit funds in account,1622025176947
+Action 7: Withdraw money,1622025176947
+Action 8: Make transaction,1622025176950
+Action 10: List all transactions,1622025176950
+Action 3: Add card,1622025176961
+Action 9: Deactivate card,1622025176962
+Action 1.2: Create business client account,1622028405771
+Action 3: Add card,1622028405785
+Action 2: Create account,1622028405785
+Action 1.1: Create individual client account,1622028405786
+Action 3: Add card,1622028405786
+Action 2: Create account,1622028405786
+Action 4: Create ATM,1622028405831
+Action 4: Create ATM,1622028405970
+Action 5: Deposit in ATM,1622028405974
+Action 6: Deposit funds in account,1622028405987
+Action 7: Withdraw money,1622028405987
+Action 8: Make transaction,1622028405990
+Action 10: List all transactions,1622028405990
+Action 3: Add card,1622028406002
+Action 9: Deactivate card,1622028406003
+Action 1.2: Create business client account,1622029460833
+Action 3: Add card,1622029460878
+Action 2: Create account,1622029460881
+Action 1.1: Create individual client account,1622029460881
+Action 3: Add card,1622029460883
+Action 2: Create account,1622029460884
+Action 4: Create ATM,1622029461144
+Action 4: Create ATM,1622029461211
+Action 5: Deposit in ATM,1622029461221
+Action 6: Deposit funds in account,1622029461293
+Action 7: Withdraw money,1622029461305
+Action 8: Make transaction,1622029461322
+Action 10: List all transactions,1622029461323
+Action 3: Add card,1622029461422
+Action 9: Deactivate card,1622029461426
+Action 1.2: Create business client account,1622030555540
+Action 3: Add card,1622030555556
+Action 2: Create account,1622030555557
+Action 1.1: Create individual client account,1622030555558
+Action 3: Add card,1622030555558
+Action 2: Create account,1622030555559
+Action 4: Create ATM,1622030555622
+Action 4: Create ATM,1622030555645
+Action 5: Deposit in ATM,1622030555654
+Action 6: Deposit funds in account,1622030555677
+Action 7: Withdraw money,1622030555683
+Action 8: Make transaction,1622030555698
+Action 10: List all transactions,1622030555699
+Action 3: Add card,1622030555743
+Action 9: Deactivate card,1622030555744
+Action 1.2: Create business client account,1622030609679
+Action 3: Add card,1622030609703
+Action 2: Create account,1622030609704
+Action 1.1: Create individual client account,1622030609704
+Action 3: Add card,1622030609705
+Action 2: Create account,1622030609705
+Action 4: Create ATM,1622030609765
+Action 4: Create ATM,1622030609786
+Action 5: Deposit in ATM,1622030609791
+Action 6: Deposit funds in account,1622030609817
+Action 7: Withdraw money,1622030609821
+Action 8: Make transaction,1622030609827
+Action 10: List all transactions,1622030609828
+Action 3: Add card,1622030609847
+Action 9: Deactivate card,1622030609847
+Action 1.2: Create business client account,1622030663489
+Action 3: Add card,1622030663511
+Action 2: Create account,1622030663512
+Action 1.1: Create individual client account,1622030663512
+Action 3: Add card,1622030663513
+Action 2: Create account,1622030663513
+Action 4: Create ATM,1622030663568
+Action 4: Create ATM,1622030663592
+Action 5: Deposit in ATM,1622030663597
+Action 6: Deposit funds in account,1622030663622
+Action 7: Withdraw money,1622030663627
+Action 8: Make transaction,1622030663635
+Action 10: List all transactions,1622030663636
+Action 3: Add card,1622030663651
+Action 9: Deactivate card,1622030663651
+Action 1.2: Create business client account,1622037149122
+Action 3: Add card,1622037149136
+Action 2: Create account,1622037149137
+Action 1.1: Create individual client account,1622037149137
+Action 3: Add card,1622037149137
+Action 2: Create account,1622037149138
+Action 4: Create ATM,1622037149188
+Action 4: Create ATM,1622037149194
+Action 5: Deposit in ATM,1622037149198
+Action 6: Deposit funds in account,1622037149210
+Action 7: Withdraw money,1622037149213
+Action 8: Make transaction,1622037149219
+Action 10: List all transactions,1622037149224
+Action 3: Add card,1622037149234
+Action 9: Deactivate card,1622037149234
+Action 1.2: Create business client account,1622037177423
+Action 3: Add card,1622037177437
+Action 2: Create account,1622037177438
+Action 1.1: Create individual client account,1622037177438
+Action 3: Add card,1622037177439
+Action 2: Create account,1622037177439
+Action 4: Create ATM,1622037177487
+Action 4: Create ATM,1622037177492
+Action 5: Deposit in ATM,1622037177496
+Action 6: Deposit funds in account,1622037177511
+Action 7: Withdraw money,1622037177515
+Action 8: Make transaction,1622037177520
+Action 10: List all transactions,1622037177525
+Action 3: Add card,1622037177538
+Action 9: Deactivate card,1622037177538
+Action 1.2: Create business client account,1622037217235
+Action 3: Add card,1622037217247
+Action 2: Create account,1622037217248
+Action 1.1: Create individual client account,1622037217249
+Action 3: Add card,1622037217249
+Action 2: Create account,1622037217249
+Action 4: Create ATM,1622037217288
+Action 4: Create ATM,1622037217292
+Action 5: Deposit in ATM,1622037217295
+Action 6: Deposit funds in account,1622037217309
+Action 7: Withdraw money,1622037217312
+Action 8: Make transaction,1622037217319
+Action 10: List all transactions,1622037217325
+Action 3: Add card,1622037217338
+Action 9: Deactivate card,1622037217339
+Action 1.2: Create business client account,1622037235543
+Action 3: Add card,1622037235558
+Action 2: Create account,1622037235559
+Action 1.1: Create individual client account,1622037235559
+Action 3: Add card,1622037235559
+Action 2: Create account,1622037235560
+Action 4: Create ATM,1622037235612
+Action 4: Create ATM,1622037235626
+Action 5: Deposit in ATM,1622037235629
+Action 6: Deposit funds in account,1622037235644
+Action 7: Withdraw money,1622037235648
+Action 8: Make transaction,1622037235654
+Action 10: List all transactions,1622037235660
+Action 3: Add card,1622037235675
+Action 9: Deactivate card,1622037235675
+Action 1.2: Create business client account,1622037344293
+Action 3: Add card,1622037344306
+Action 2: Create account,1622037344307
+Action 1.1: Create individual client account,1622037344307
+Action 3: Add card,1622037344307
+Action 2: Create account,1622037344308
+Action 4: Create ATM,1622037344349
+Action 4: Create ATM,1622037344362
+Action 5: Deposit in ATM,1622037344366
+Action 6: Deposit funds in account,1622037344380
+Action 7: Withdraw money,1622037344383
+Action 8: Make transaction,1622037344388
+Action 10: List all transactions,1622037344392
+Action 3: Add card,1622037344402
+Action 9: Deactivate card,1622037344402
+Action 1.2: Create business client account,1622037412735
+Action 3: Add card,1622037412750
+Action 2: Create account,1622037412751
+Action 1.1: Create individual client account,1622037412751
+Action 3: Add card,1622037412751
+Action 2: Create account,1622037412752
+Action 4: Create ATM,1622037412804
+Action 4: Create ATM,1622037412819
+Action 5: Deposit in ATM,1622037412823
+Action 6: Deposit funds in account,1622037412839
+Action 7: Withdraw money,1622037412843
+Action 8: Make transaction,1622037412852
+Action 10: List all transactions,1622037412871
+Action 3: Add card,1622037412884
+Action 9: Deactivate card,1622037412884
+Action 1.2: Create business client account,1622037679798
+Action 3: Add card,1622037679814
+Action 2: Create account,1622037679815
+Action 1.1: Create individual client account,1622037679815
+Action 3: Add card,1622037679815
+Action 2: Create account,1622037679815
+Action 4: Create ATM,1622037679863
+Action 4: Create ATM,1622037679877
+Action 5: Deposit in ATM,1622037679881
+Action 6: Deposit funds in account,1622037679895
+Action 7: Withdraw money,1622037679899
+Action 8: Make transaction,1622037679905
+Action 10: List all transactions,1622037679913
+Action 3: Add card,1622037679914
+Action 9: Deactivate card,1622037679914
+Action 1.2: Create business client account,1622038429374
+Action 3: Add card,1622038429386
+Action 2: Create account,1622038429387
+Action 1.1: Create individual client account,1622038429387
+Action 3: Add card,1622038429387
+Action 2: Create account,1622038429388
+Action 4: Create ATM,1622038429428
+Action 4: Create ATM,1622038429441
+Action 5: Deposit in ATM,1622038429445
+Action 6: Deposit funds in account,1622038429459
+Action 7: Withdraw money,1622038429463
+Action 8: Make transaction,1622038429468
+Action 10: List all transactions,1622038429476
+Action 3: Add card,1622038429477
+Action 9: Deactivate card,1622038429478
+Action 1.2: Create business client account,1622038473430
+Action 3: Add card,1622038473441
+Action 2: Create account,1622038473442
+Action 1.1: Create individual client account,1622038473443
+Action 3: Add card,1622038473443
+Action 2: Create account,1622038473444
+Action 4: Create ATM,1622038473488
+Action 4: Create ATM,1622038473504
+Action 5: Deposit in ATM,1622038473507
+Action 6: Deposit funds in account,1622038473521
+Action 7: Withdraw money,1622038473525
+Action 8: Make transaction,1622038473530
+Action 10: List all transactions,1622038473537
+Action 3: Add card,1622038473539
+Action 9: Deactivate card,1622038473539
+Action 1.2: Create business client account,1622038529305
+Action 3: Add card,1622038529318
+Action 2: Create account,1622038529320
+Action 1.1: Create individual client account,1622038529320
+Action 3: Add card,1622038529321
+Action 2: Create account,1622038529321
+Action 4: Create ATM,1622038529361
+Action 4: Create ATM,1622038529375
+Action 5: Deposit in ATM,1622038529379
+Action 6: Deposit funds in account,1622038529392
+Action 7: Withdraw money,1622038529396
+Action 8: Make transaction,1622038529401
+Action 10: List all transactions,1622038529408
+Action 3: Add card,1622038529409
+Action 9: Deactivate card,1622038529410
+Action 1.2: Create business client account,1622038550630
+Action 3: Add card,1622038550645
+Action 2: Create account,1622038550649
+Action 1.1: Create individual client account,1622038550653
+Action 3: Add card,1622038550658
+Action 2: Create account,1622038550662
+Action 4: Create ATM,1622038550711
+Action 4: Create ATM,1622038550720
+Action 5: Deposit in ATM,1622038550726
+Action 6: Deposit funds in account,1622038550743
+Action 7: Withdraw money,1622038550749
+Action 8: Make transaction,1622038550757
+Action 10: List all transactions,1622038550767
+Action 3: Add card,1622038550773
+Action 9: Deactivate card,1622038550777
+Action 1.2: Create business client account,1622038566121
+Action 3: Add card,1622038566137
+Action 2: Create account,1622038566141
+Action 1.1: Create individual client account,1622038566144
+Action 3: Add card,1622038566148
+Action 2: Create account,1622038566151
+Action 4: Create ATM,1622038566191
+Action 4: Create ATM,1622038566207
+Action 5: Deposit in ATM,1622038566215
+Action 6: Deposit funds in account,1622038566233
+Action 7: Withdraw money,1622038566239
+Action 8: Make transaction,1622038566247
+Action 10: List all transactions,1622038566258
+Action 3: Add card,1622038566262
+Action 9: Deactivate card,1622038566266
+Action 1.2: Create business client account,1622039456356
+Action 3: Add card,1622039456371
+Action 2: Create account,1622039456374
+Action 1.1: Create individual client account,1622039456378
+Action 3: Add card,1622039456382
+Action 2: Create account,1622039456385
+Action 4: Create ATM,1622039456431
+Action 4: Create ATM,1622039456450
+Action 5: Deposit in ATM,1622039456457
+Action 6: Deposit funds in account,1622039456474
+Action 7: Withdraw money,1622039456480
+Action 1.2: Create business client account,1622039513299
+Action 3: Add card,1622039513317
+Action 2: Create account,1622039513321
+Action 1.1: Create individual client account,1622039513325
+Action 3: Add card,1622039513329
+Action 2: Create account,1622039513332
+Action 4: Create ATM,1622039513377
+Action 4: Create ATM,1622039513393
+Action 5: Deposit in ATM,1622039513401
+Action 6: Deposit funds in account,1622039513421
+Action 7: Withdraw money,1622039513428
+Action 1.2: Create business client account,1622039573423
+Action 3: Add card,1622039573439
+Action 2: Create account,1622039573443
+Action 1.1: Create individual client account,1622039573446
+Action 3: Add card,1622039573450
+Action 2: Create account,1622039573454
+Action 4: Create ATM,1622039573495
+Action 4: Create ATM,1622039573512
+Action 5: Deposit in ATM,1622039573518
+Action 6: Deposit funds in account,1622039573537
+Action 7: Withdraw money,1622039573543
+Action 8: Make transaction,1622039573551
+Action 10: List all transactions,1622039573561
+Action 3: Add card,1622039573565
+Action 9: Deactivate card,1622039573568

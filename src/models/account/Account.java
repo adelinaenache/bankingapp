@@ -37,7 +37,6 @@ public abstract class Account {
         this.balance = Double.parseDouble(balance);
     }
 
-    // TODO: Move these methods to a dedicated service
     // used for showcase purposes. Normally, you shouldn't have access to cards.
     public Card getFirstCard() {
         return cards.get(0);
@@ -112,6 +111,14 @@ public abstract class Account {
         }
         balance -= getTransferAmountWithFees(amount);
     }
+
+    public void setBalance(double b) throws Exception {
+        if (b < 0) {
+            throw new Exception("Balance cannot be less than 0");
+        }
+        this.balance = b;
+    }
+
 
     public void receiveTransferMoney(double amount) {
         balance += amount;

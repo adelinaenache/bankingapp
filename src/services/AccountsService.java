@@ -6,6 +6,7 @@ import models.account.AccountFactory;
 import models.client.Client;
 
 import java.io.FileNotFoundException;
+import java.sql.SQLException;
 import java.util.*;
 
 public class AccountsService {

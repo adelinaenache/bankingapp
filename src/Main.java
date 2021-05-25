@@ -83,6 +83,9 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
+        //Functionality 11: Delete atm
+        atmService.deleteAtm("ING2");
+
     }
 
 }

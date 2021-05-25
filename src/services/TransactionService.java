@@ -5,6 +5,7 @@ import models.account.Account;
 import models.transaction.Transaction;
 
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
@@ -15,11 +16,13 @@ public class TransactionService {
     private final AccountsService accountsService;
     private final ReaderService reader;
     private final AuditService audit;
+    private final TransactionDatabaseService database;
 
     private TransactionService(){
         this.accountsService = AccountsService.getInstance();
         this.reader = ReaderService.getInstance();
         this.audit = AuditService.getInstance();
+        this.database = TransactionDatabaseService.getInstance();
         this.loadData();
     };
 
@@ -32,16 +35,22 @@ public class TransactionService {
     }
 
     private void loadData() {
-        try {
-            List<List<String>> data = this.reader.read("src/data/transactions.csv");
+        List<Transaction> trans = this.database.get();
 
-            for (List<String> row: data) {
-                transactions.add(new Transaction(row.get(0), row.get(1), row.get(2), row.get(3), row.get(4)));
-            }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+        for (Transaction t : trans) {
+            this.transactions.add(t);
         }
+
+ //        try {
+//            List<List<String>> data = this.reader.read("src/data/transactions.csv");
+//
+//            for (List<String> row: data) {
+//                transactions.add(new Transaction(row.get(0), row.get(1), row.get(2), row.get(3), row.get(4)));
+//            }
+//
+//        } catch (FileNotFoundException e) {
+//            e.printStackTrace();
+//        }
 
     }
 
@@ -57,7 +66,9 @@ public class TransactionService {
 
         giverAccount.extractTransferAmount(amount);
         receiverAccount.receiveTransferMoney(amount);
-        transactions.add(new Transaction(giverAccount, receiverAccount, amount, giverAccount.getTransactionFee(amount)));
+        Transaction t = new Transaction(giverAccount, receiverAccount, amount, giverAccount.getTransactionFee(amount));
+        transactions.add(t);
+        this.database.save(t);
     }
 
 

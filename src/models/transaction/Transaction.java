@@ -3,8 +3,10 @@ package models.transaction;
 import models.account.Account;
 import models.atm.Atm;
 
+import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Comparator;
+import java.util.UUID;
 
 public class Transaction implements Comparable<Transaction> {
     private final LocalDate date;
@@ -12,12 +14,14 @@ public class Transaction implements Comparable<Transaction> {
     private final double amount;
     private final String giverIdentification;
     private final String receiverIdentification;
+    private final UUID id;
 
     public LocalDate getDate() {
         return this.date;
     }
 
     public Transaction(Account giver, Account receiver, double amount, double fee) {
+        this.id = UUID.randomUUID();
         this.date = LocalDate.now();
         this.fee = fee;
         this.amount = amount;
@@ -26,6 +30,7 @@ public class Transaction implements Comparable<Transaction> {
     }
 
     public Transaction(Atm atm, Account receiver, int amount, double fee) {
+        this.id = UUID.randomUUID();
         this.date = LocalDate.now();
         this.fee = fee;
         this.amount = amount;
@@ -34,6 +39,7 @@ public class Transaction implements Comparable<Transaction> {
     }
 
     public Transaction(Account giver, Atm receiver, int amount, double fee) {
+        this.id = UUID.randomUUID();
         this.date = LocalDate.now();
         this.fee = fee;
         this.amount = amount;
@@ -42,12 +48,17 @@ public class Transaction implements Comparable<Transaction> {
     }
 
     // used to load transactions from csv
-    public Transaction(String giver, String receiver, String amount, String fee, String date) {
-        this.date = LocalDate.parse(date);
-        this.fee = Double.parseDouble(fee);
-        this.amount = Double.parseDouble(amount);
+    public Transaction(String id, Date date, String giver, String receiver, Double amount, Double fee) {
+        this.id = UUID.fromString(id);
+        this.date = date.toLocalDate();
+        this.fee = fee;
+        this.amount = amount;
         this.giverIdentification = giver;
         this.receiverIdentification = receiver;
+    }
+
+    public UUID getId() {
+        return this.id;
     }
 
 
@@ -62,6 +73,15 @@ public class Transaction implements Comparable<Transaction> {
 
     public String getReceiverIdentification() {
         return receiverIdentification;
+    }
+
+    public double getFee() {
+        return fee;
+
+    }
+
+    public double getAmount() {
+        return amount;
     }
 
     @Override
